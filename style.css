@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #f3d2a2, #e0a96d, #c68642);
+}
+
+/* Cabeçalho */
+header {
+  background: #8b5a2b; /* marrom pão assado */
+  color: #fff8e7;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Inputs e botão centralizados */
+input, button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 240px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+}
+
+/* Inputs */
+input {
+  background: #fff3e0; /* massa clara */
+}
+
+/* Botão */
+button {
+  background: #d2691e; /* cor de casca de pão */
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #a0522d;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Lista de aniversários */
+li {
+  background: #fff8e7;
+  margin: 12px auto;
+  padding: 12px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
